@@ -1,0 +1,18 @@
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\bin\Debug\BUL.dll
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\bin\Debug\BUL.pdb
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\bin\Debug\DAO.dll
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\bin\Debug\DAO.pdb
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\obj\Debug\BUL.dll
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\obj\Debug\BUL.pdb
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\bin\Debug\DTO.dll
+C:\Users\mkcuong\Documents\Visual Studio 2015\Projects\QuanLyQuanCafe\BUL\bin\Debug\DTO.pdb
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\bin\Debug\BUL.dll
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\bin\Debug\BUL.pdb
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\bin\Debug\DAO.dll
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\bin\Debug\DTO.dll
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\bin\Debug\DAO.pdb
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\bin\Debug\DTO.pdb
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\obj\Debug\BUL.dll
+C:\Users\mkcuong\OneDrive\SourceCSharp\QuanLyQuanCafe\BUL\obj\Debug\BUL.pdb
