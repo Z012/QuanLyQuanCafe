@@ -102,6 +102,26 @@ namespace QuanLyQuanCafe
 
         }
 
+        private void btnDeleteAcc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShowAcc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditAcc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddAcc_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }
