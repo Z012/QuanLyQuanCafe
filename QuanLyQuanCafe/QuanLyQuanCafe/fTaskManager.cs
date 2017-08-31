@@ -91,8 +91,6 @@ namespace QuanLyQuanCafe
 
         private void ShowBill(int id)
         {
-            
-
             lsvBill.Items.Clear();
             List<DTO.Menu> lsMenu = MenuBUL.Instance.GetListMenuByTable(id);
             float totalprice = 0;
@@ -112,7 +110,6 @@ namespace QuanLyQuanCafe
             //txtTotalPrice.Text = totalprice.ToString("c", culure);
 
             txtTotalPrice.Text = totalprice.ToString();
-
         }
 
 
@@ -181,8 +178,6 @@ namespace QuanLyQuanCafe
 
                 int MaxIdBill = BillBUL.Instance.GetMaxIdBill();
                 BillInfoBUL.Instance.InsertBillInfo(MaxIdBill, foodId, count);
-
-               
             }
             else
             {
@@ -191,7 +186,6 @@ namespace QuanLyQuanCafe
 
             ShowBill(table.Id);
             LoadTable();
-
         }
 
         private void btnCheckOut_Click(object sender, EventArgs e)
