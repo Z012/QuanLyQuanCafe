@@ -108,25 +108,22 @@
             this.txtSearchAcc = new System.Windows.Forms.TextBox();
             this.panel31 = new System.Windows.Forms.Panel();
             this.dgvAccount = new System.Windows.Forms.DataGridView();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.cmbStatusAcc = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txtShowNameAcc = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.txtNameAcc = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
             this.panel25 = new System.Windows.Forms.Panel();
             this.btnShowAcc = new System.Windows.Forms.Button();
             this.btnDeleteAcc = new System.Windows.Forms.Button();
             this.btnEditAcc = new System.Windows.Forms.Button();
             this.btnAddAcc = new System.Windows.Forms.Button();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.cmbAccType = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.txtAccShow = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.txtAcc = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.btnReplcePass = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tpBill.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -165,12 +162,11 @@
             this.panel32.SuspendLayout();
             this.panel31.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).BeginInit();
+            this.panel25.SuspendLayout();
             this.panel26.SuspendLayout();
-            this.panel27.SuspendLayout();
             this.panel28.SuspendLayout();
             this.panel29.SuspendLayout();
             this.panel30.SuspendLayout();
-            this.panel25.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -718,6 +714,7 @@
             // 
             // panel24
             // 
+            this.panel24.AutoSize = true;
             this.panel24.Controls.Add(this.cmbStatus);
             this.panel24.Controls.Add(this.label10);
             this.panel24.Location = new System.Drawing.Point(4, 132);
@@ -745,12 +742,13 @@
             // 
             // panel20
             // 
+            this.panel20.AutoSize = true;
             this.panel20.Controls.Add(this.panel23);
             this.panel20.Controls.Add(this.txtNameTable);
             this.panel20.Controls.Add(this.label5);
             this.panel20.Location = new System.Drawing.Point(4, 63);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(318, 60);
+            this.panel20.Size = new System.Drawing.Size(321, 129);
             this.panel20.TabIndex = 1;
             // 
             // panel23
@@ -798,6 +796,7 @@
             // 
             // panel21
             // 
+            this.panel21.AutoSize = true;
             this.panel21.Controls.Add(this.txtIDTable);
             this.panel21.Controls.Add(this.label6);
             this.panel21.Location = new System.Drawing.Point(4, 4);
@@ -902,9 +901,9 @@
             // 
             // tpAccount
             // 
+            this.tpAccount.Controls.Add(this.panel26);
             this.tpAccount.Controls.Add(this.panel32);
             this.tpAccount.Controls.Add(this.panel31);
-            this.tpAccount.Controls.Add(this.panel26);
             this.tpAccount.Controls.Add(this.panel25);
             this.tpAccount.Location = new System.Drawing.Point(4, 22);
             this.tpAccount.Name = "tpAccount";
@@ -965,139 +964,10 @@
             this.dgvAccount.Size = new System.Drawing.Size(481, 408);
             this.dgvAccount.TabIndex = 0;
             // 
-            // panel26
-            // 
-            this.panel26.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel26.Controls.Add(this.button1);
-            this.panel26.Controls.Add(this.panel27);
-            this.panel26.Controls.Add(this.panel28);
-            this.panel26.Controls.Add(this.panel30);
-            this.panel26.Location = new System.Drawing.Point(492, 50);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(325, 404);
-            this.panel26.TabIndex = 7;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(218, 214);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 38);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Đặt lại mật khẩu";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // panel27
-            // 
-            this.panel27.Controls.Add(this.cmbStatusAcc);
-            this.panel27.Controls.Add(this.label11);
-            this.panel27.Location = new System.Drawing.Point(4, 132);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(318, 60);
-            this.panel27.TabIndex = 2;
-            // 
-            // cmbStatusAcc
-            // 
-            this.cmbStatusAcc.FormattingEnabled = true;
-            this.cmbStatusAcc.Location = new System.Drawing.Point(126, 18);
-            this.cmbStatusAcc.Name = "cmbStatusAcc";
-            this.cmbStatusAcc.Size = new System.Drawing.Size(189, 21);
-            this.cmbStatusAcc.TabIndex = 1;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(3, 21);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(108, 20);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Loại tài khoản";
-            // 
-            // panel28
-            // 
-            this.panel28.Controls.Add(this.panel29);
-            this.panel28.Controls.Add(this.txtShowNameAcc);
-            this.panel28.Controls.Add(this.label13);
-            this.panel28.Location = new System.Drawing.Point(4, 63);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(318, 60);
-            this.panel28.TabIndex = 1;
-            // 
-            // panel29
-            // 
-            this.panel29.Controls.Add(this.textBox1);
-            this.panel29.Controls.Add(this.label12);
-            this.panel29.Location = new System.Drawing.Point(0, 66);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(318, 60);
-            this.panel29.TabIndex = 2;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(95, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 21);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(71, 20);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Tên món";
-            // 
-            // txtShowNameAcc
-            // 
-            this.txtShowNameAcc.Location = new System.Drawing.Point(126, 21);
-            this.txtShowNameAcc.Name = "txtShowNameAcc";
-            this.txtShowNameAcc.Size = new System.Drawing.Size(189, 20);
-            this.txtShowNameAcc.TabIndex = 1;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(3, 21);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(91, 20);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Tên hiển thị";
-            // 
-            // panel30
-            // 
-            this.panel30.Controls.Add(this.txtNameAcc);
-            this.panel30.Controls.Add(this.label14);
-            this.panel30.Location = new System.Drawing.Point(4, 4);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(318, 53);
-            this.panel30.TabIndex = 0;
-            // 
-            // txtNameAcc
-            // 
-            this.txtNameAcc.Location = new System.Drawing.Point(126, 12);
-            this.txtNameAcc.Name = "txtNameAcc";
-            this.txtNameAcc.ReadOnly = true;
-            this.txtNameAcc.Size = new System.Drawing.Size(189, 20);
-            this.txtNameAcc.TabIndex = 1;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(3, 12);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(105, 20);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Tên tài khoản";
-            // 
             // panel25
             // 
             this.panel25.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel25.Controls.Add(this.btnShowAcc);
             this.panel25.Controls.Add(this.btnDeleteAcc);
             this.panel25.Controls.Add(this.btnEditAcc);
@@ -1147,6 +1017,108 @@
             this.btnAddAcc.UseVisualStyleBackColor = true;
             this.btnAddAcc.Click += new System.EventHandler(this.btnAddAcc_Click);
             // 
+            // panel26
+            // 
+            this.panel26.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel26.Controls.Add(this.btnReplcePass);
+            this.panel26.Controls.Add(this.panel28);
+            this.panel26.Controls.Add(this.panel29);
+            this.panel26.Controls.Add(this.panel30);
+            this.panel26.Location = new System.Drawing.Point(495, 50);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(325, 408);
+            this.panel26.TabIndex = 10;
+            // 
+            // panel28
+            // 
+            this.panel28.Controls.Add(this.cmbAccType);
+            this.panel28.Controls.Add(this.label12);
+            this.panel28.Location = new System.Drawing.Point(4, 129);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(318, 58);
+            this.panel28.TabIndex = 2;
+            // 
+            // cmbAccType
+            // 
+            this.cmbAccType.FormattingEnabled = true;
+            this.cmbAccType.Location = new System.Drawing.Point(110, 21);
+            this.cmbAccType.Name = "cmbAccType";
+            this.cmbAccType.Size = new System.Drawing.Size(205, 21);
+            this.cmbAccType.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(4, 21);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(97, 17);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Loại tài khoản";
+            // 
+            // panel29
+            // 
+            this.panel29.Controls.Add(this.txtAccShow);
+            this.panel29.Controls.Add(this.label13);
+            this.panel29.Location = new System.Drawing.Point(4, 63);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(318, 60);
+            this.panel29.TabIndex = 1;
+            // 
+            // txtAccShow
+            // 
+            this.txtAccShow.Location = new System.Drawing.Point(110, 21);
+            this.txtAccShow.Name = "txtAccShow";
+            this.txtAccShow.Size = new System.Drawing.Size(205, 20);
+            this.txtAccShow.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(3, 21);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(83, 17);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Tên hiển thị";
+            // 
+            // panel30
+            // 
+            this.panel30.Controls.Add(this.txtAcc);
+            this.panel30.Controls.Add(this.label14);
+            this.panel30.Location = new System.Drawing.Point(4, 4);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(318, 53);
+            this.panel30.TabIndex = 0;
+            // 
+            // txtAcc
+            // 
+            this.txtAcc.Location = new System.Drawing.Point(110, 12);
+            this.txtAcc.Name = "txtAcc";
+            this.txtAcc.ReadOnly = true;
+            this.txtAcc.Size = new System.Drawing.Size(205, 20);
+            this.txtAcc.TabIndex = 1;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(3, 12);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(71, 17);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Tài khoản";
+            // 
+            // btnReplcePass
+            // 
+            this.btnReplcePass.Location = new System.Drawing.Point(176, 203);
+            this.btnReplcePass.Name = "btnReplcePass";
+            this.btnReplcePass.Size = new System.Drawing.Size(143, 28);
+            this.btnReplcePass.TabIndex = 3;
+            this.btnReplcePass.Text = "Đặt lại mật khẩu";
+            this.btnReplcePass.UseVisualStyleBackColor = true;
+            // 
             // fAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1194,6 +1166,7 @@
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTable)).EndInit();
             this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
             this.panel24.ResumeLayout(false);
             this.panel24.PerformLayout();
             this.panel20.ResumeLayout(false);
@@ -1210,16 +1183,14 @@
             this.panel32.PerformLayout();
             this.panel31.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).EndInit();
+            this.panel25.ResumeLayout(false);
             this.panel26.ResumeLayout(false);
-            this.panel27.ResumeLayout(false);
-            this.panel27.PerformLayout();
             this.panel28.ResumeLayout(false);
             this.panel28.PerformLayout();
             this.panel29.ResumeLayout(false);
             this.panel29.PerformLayout();
             this.panel30.ResumeLayout(false);
             this.panel30.PerformLayout();
-            this.panel25.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1306,24 +1277,21 @@
         private System.Windows.Forms.TextBox txtSearchAcc;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.DataGridView dgvAccount;
-        private System.Windows.Forms.Panel panel26;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel27;
-        private System.Windows.Forms.ComboBox cmbStatusAcc;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Panel panel28;
-        private System.Windows.Forms.Panel panel29;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txtShowNameAcc;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Panel panel30;
-        private System.Windows.Forms.TextBox txtNameAcc;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.Button btnShowAcc;
         private System.Windows.Forms.Button btnDeleteAcc;
         private System.Windows.Forms.Button btnEditAcc;
         private System.Windows.Forms.Button btnAddAcc;
+        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.Button btnReplcePass;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.ComboBox cmbAccType;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel29;
+        private System.Windows.Forms.TextBox txtAccShow;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Panel panel30;
+        private System.Windows.Forms.TextBox txtAcc;
+        private System.Windows.Forms.Label label14;
     }
 }
